@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "3d3940cede7b6960",
+    "type": "split",
+    "children": [
+      {
+        "id": "83954cfe97977c91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f57e8da50c904b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "diary/2024-11-15 星期五.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-11-15 星期五"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e23f468bf5a80c51",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b13c0e7ba66e673",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3da2cc3e9332d5c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2e1ea3a4bc635403",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "eef2ed7adb9effe8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 304.5
+  },
+  "right": {
+    "id": "8d5deedd25a0fac3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ebdd737a38c1caf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e8dd8856663a71f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "etsme/linux命令记录.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "linux命令记录 的反向链接列表"
+            }
+          },
+          {
+            "id": "5f6af0e01474b340",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "etsme/linux命令记录.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "linux命令记录 的出链列表"
+            }
+          },
+          {
+            "id": "0c55a42bddc26c43",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "0802e99cff7ea6a5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "diary/2024-11-15 星期五.md"
+              },
+              "icon": "lucide-list",
+              "title": "2024-11-15 星期五 的大纲"
+            }
+          },
+          {
+            "id": "e5b5ae25a9b1e589",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "f7c248afe5655c5d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "37bde4d73b2eae2c",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 560.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:打开/创建今天的日记": false,
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-day-planner:Timeline": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "8f57e8da50c904b1",
+  "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-11-15 18.08.09.excalidraw.md",
+    "未命名.canvas",
+    "diary/2024-11-15 星期五.md",
+    "etsme/tasksched/04-mermaid.md",
+    "etsme/tasksched/00-etstest.md",
+    "Excalidraw/Drawing 2024-11-15 16.55.43.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-29 18.44.41.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-11 19.07.13.excalidraw.md",
+    "Excalidraw/tasksched-structure 1.mermaid",
+    "Excalidraw/tasksched-structure.mermaid",
+    "diary/2024-11-14 星期四.md",
+    "etsme/QA/00-linux命令记录.md",
+    "notes/linux/查看支持的命令.md",
+    "notes/ffmpeg.md",
+    "notes/git.md",
+    "notes/linux/python3.md",
+    "notes/linux/tcpdump.md",
+    "notes/GitHub打不开的解决方案.md",
+    "notes/you-get.md",
+    "notes/claude.md",
+    "notes/安装Appium.md",
+    "notes/linux/io.md",
+    "notes/linux/vmstat.md",
+    "notes/linux/echo.md",
+    "etsme/tasksched/03-cpuspeed.md",
+    "etsme/tasksched/02-README.md",
+    "etsme/tasksched/01-yaml.md",
+    "etsme/QA/03-nginx问题跟进.md",
+    "etsme/QA/02-进入客户机.md",
+    "notes/网络",
+    "etsme/tasksched",
+    "etsme/filemgmt",
+    "pics/Pasted image 20241105112550.png",
+    "pics/Pasted image 20241105110631.png",
+    "Excalidraw",
+    "未命名",
+    "tmps",
+    "pics/Pasted image 20241028145554.png",
+    "pics/Pasted image 20241021154837.png",
+    "pics",
+    "etsme/QA",
+    "pics/Pasted image 20241021154912.png",
+    "notes/Pasted image 20241012145518.png"
+  ]
+}

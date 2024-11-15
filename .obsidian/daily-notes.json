@@ -1,0 +1,6 @@
+{
+  "folder": "diary",
+  "autorun": true,
+  "format": "YYYY-MM-DD dddd",
+  "template": "tmps/diary template"
+}

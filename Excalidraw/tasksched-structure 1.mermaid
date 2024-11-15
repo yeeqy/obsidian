@@ -1,0 +1,44 @@
+classDiagram
+    class TaskDescription {
+        +Map~string,Task~ Tasks
+        +Map~int,[]Job~ PriorityJobs
+        +RolePriority RolePrio
+    }
+
+    class Task {
+        +string Name
+        +int Priority
+        +string Mode
+        +int CreateThr
+        +int ConcurrencyThr
+        +TaskPolicy Policy
+        +string Executor
+        +Map~string,Job~ Jobs
+        +[]GroupJobs GroupJobs
+    }
+
+    class Job {
+        +string JobID
+        +string GroupID
+        +string UserID
+        +JobState State
+        +int Priority
+        +Task* FatherTask
+        +JobExecutor Executor
+    }
+
+    class TaskPolicy {
+        +SchedPolicy Sched
+        +PerformancePolicy Performance
+    }
+
+    class JobExecutor {
+        +string ServiceName
+        +float Progress
+    }
+
+    TaskDescription "1" *-- "many" Task : contains
+    Task "1" *-- "many" Job : manages
+    Task "1" *-- "1" TaskPolicy : has
+    Job "many" --* "1" Task : belongs to
+    Job "1" *-- "1" JobExecutor : has
