@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "2024-11-15 星期五"
             }
+          },
+          {
+            "id": "2a843565dfef7272",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tmps/diary template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "diary template"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,6 +190,16 @@
             "state": {
               "type": "timeline",
               "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "33fc7a62010a0b89",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
@@ -184,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 560.5
+    "width": 286.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,17 +219,19 @@
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-day-planner:Timeline": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8f57e8da50c904b1",
+  "active": "2a843565dfef7272",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-11-15 18.08.09.excalidraw.md",
-    "未命名.canvas",
     "diary/2024-11-15 星期五.md",
     "etsme/tasksched/04-mermaid.md",
+    "Excalidraw/Drawing 2024-11-15 18.46.42.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-15 18.08.09.excalidraw.md",
+    "未命名.canvas",
     "etsme/tasksched/00-etstest.md",
     "Excalidraw/Drawing 2024-11-15 16.55.43.excalidraw.md",
     "Excalidraw/Drawing 2024-10-29 18.44.41.excalidraw.md",
@@ -229,7 +256,6 @@
     "etsme/tasksched/02-README.md",
     "etsme/tasksched/01-yaml.md",
     "etsme/QA/03-nginx问题跟进.md",
-    "etsme/QA/02-进入客户机.md",
     "notes/网络",
     "etsme/tasksched",
     "etsme/filemgmt",
