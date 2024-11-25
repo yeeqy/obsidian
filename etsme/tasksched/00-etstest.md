@@ -1,16 +1,18 @@
-1. 在测试主机上git pull origin yqy
-2. cd到/etstest/go目录下，执行 sh build.sh
-3. cd到相应目录看到运行脚本生成
-4. 执行 python3 -m http.server 9999
-5. 从浏览器打开该测试主机ip:port
-6. 复制相应目录链接
-7. 到自己的盒子内wget 该链接
-8. 在自己盒子执行脚本
+1. 有更新记得先提交并推送git
+2. 在测试主机上git pull origin yqy
+3. cd到/etstest/go目录下，执行 sh build.sh
+4. cd到相应目录看到运行脚本生成
+5. 执行 python3 -m http.server 9999
+6. 从浏览器打开该测试主机ip:port
+7. 复制相应目录链接
+8. 到自己的盒子内wget 该链接
+9. 在自己盒子执行脚本
 
 ```bash
 chmod +x tasksched.test
 ./tasksched.test
 
+./tasksched.test -test.v -test.run TestHighConcurrenceJobCreation
 ./tasksched.test -test.v -test.run TestConcurrenceJobSimple
 ./tasksched.test -test.v -test.run TestConcurrenceJob  
 
@@ -32,7 +34,7 @@ chmod +x tasksched.test
 
 网盘任务：FsGatewayCopyAndMove
 后台任务：FileBatchProcess
-上传下载：DeviceDownloadFromPhd / DeviceUploadToPhd
+// 上传下载：DeviceDownloadFromPhd / DeviceUploadToPhd
 闪传任务：FastExg
 # testsched_test.go
 

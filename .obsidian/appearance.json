@@ -1,5 +1,7 @@
 {
   "accentColor": "#7b55d3",
-  "theme": "moonstone",
-  "interfaceFontFamily": "Cambria"
+  "theme": "obsidian",
+  "interfaceFontFamily": "Cascadia Code",
+  "cssTheme": "Atom",
+  "textFontFamily": "Microsoft Tai Le"
 }
